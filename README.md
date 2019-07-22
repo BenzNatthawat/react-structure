@@ -1,10 +1,12 @@
-# react-project-template
+# react-structure
 
 โครงสร้าง react การทำโปรเจค
 
-## การติดตั้ง
+RUN `git clone https://github.com/BenzZero/react-structure.git`
+RUN `yarn` OR `npm install`
+RUN `yarn start` OR `npm start`
 
-runs git clone http://gitlab.opensource-technology.com:9090/pacharamai/react-project-template.git ใน command เมื่อ clone โปรเจคเสร็จสิ้นแล้ว run คำสั่ง npm install หรือ yarn
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## อธิบายโครงสร้างโปรเจค
 ```
@@ -25,10 +27,12 @@ src
 │       ├───main.scss
 │       └─── ...
 ├───components
+│   ├───index.js
 │   └───component N
 │       └───index.js
 ├───config
-│   └───index.js
+│   ├───index.js
+│   └─── ...
 ├───templates
 │   ├───login
 │   │   ├───index.js
