@@ -3,7 +3,9 @@
 โครงสร้าง react การทำโปรเจค
 
 RUN `git clone https://github.com/BenzZero/react-structure.git`
+
 RUN `yarn` OR `npm install`
+
 RUN `yarn start` OR `npm start`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -12,10 +14,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ```
 src
 ├───activities
-│   ├───login
-│   │   ├───index.js
-│   │   └───loginform
-│   │       └───index.js
+│   ├───activitieA
+│   │   └───index.js
 │   └───activity N
 │       └─── ..
 ├───assets
@@ -34,12 +34,9 @@ src
 │   ├───index.js
 │   └─── ...
 ├───templates
-│   ├───login
-│   │   ├───index.js
-│   │   └───loginform
-│   │       └───index.js
-│   └───main
-│       ├───index.js
+│   ├───main
+│   │   └───index.js
+│   └───templates N
 │       └─── ...
 ├───routes
 │   ├───rootRoutes.js
