@@ -1,0 +1,11 @@
+/** font ตัวอย่างสามารถ เอา font อื่นมาใช้ได้*/
+@import '../fonts/Roboto/style.css';
+
+/** Variable ตัวแปรที่ใช้บ่อยๆ เช่น สี เป็นต้น*/
+@import './variables/index';
+
+/** theme จะเป็น style หลักของเว็บ */
+@import './themes/index';
+
+/** compoenent จะเป็นส่วนประกอบย่อยๆ เช่น ปุ่ม เป็นต้น*/
+@import './components/index';
