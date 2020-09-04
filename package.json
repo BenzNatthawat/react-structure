@@ -8,7 +8,7 @@
     "babel-loader": "^8.0.6",
     "babel-preset-react-app": "^9.0.0",
     "eslint-config-standard-react": "7.0.2",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
